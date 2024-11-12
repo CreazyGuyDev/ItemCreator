@@ -1,0 +1,15 @@
+name: ItemCreator
+version: '1.0-SNAPSHOT'
+main: pl.creazy.itemcreator.ItemCreator
+api-version: '1.21'
+authors: [ Creazy Guy ]
+website: creazy.pl
+depend:
+  - CreazyLib
+commands:
+  lore:
+    description: set item lore
+  armoreffect:
+    description: add armor effects
+  attribute:
+    description: set item attributes modifiers
